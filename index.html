@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <h1>
+            Chatworks
+        </h1>
+
+        <div>
+            A simple chat application.
+        </div>
+
+        <div class='chatbox scrollable' id='scrollbox'>
+            <p>            
+            </p>
+        </div>
+
+        <form id="form">
+            <label for="new-message">Message:</label>
+            <input type="text" id="new-message" name="new-message" required>
+            <button type="submit" id="send">Send your message</button>
+        </form>
+
+        <script src="jquery-3.4.1.js"></script>
+        <script src="app.js"></script>
+        <script src="reply_text.js"></script>
+
+    </body>
+
+</html>
